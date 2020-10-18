@@ -150,12 +150,6 @@ methods: {
       this.clearSky = true;
       this.snowy = false;
     }
-    if (mainWeather.includes("Clouds")) {
-      this.stormy = false;
-      this.cloudy = false;
-      this.clearSky = false;
-      this.snowy = false;
-    }
     if (mainWeather.includes("Snow")) {
       this.stormy = false;
       this.cloudy = false;
